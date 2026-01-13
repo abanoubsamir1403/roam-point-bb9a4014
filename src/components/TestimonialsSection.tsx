@@ -2,46 +2,52 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "أحمد محمود",
-    role: "رجل أعمال",
+    name: "John Smith",
+    role: "Business Executive",
+    country: "🇺🇸 USA",
     rating: 5,
-    review: "خدمة ممتازة ومحترفة جداً، السائق كان في الموعد والسيارة نظيفة ومريحة. أنصح الجميع بالتعامل معهم.",
-    avatar: "أ",
+    review: "Absolutely fantastic service! The driver was punctual and the car was spotless. Highly recommend for anyone visiting Egypt.",
+    avatar: "J",
   },
   {
-    name: "سارة أحمد",
-    role: "مدونة سفر",
+    name: "Marie Dubois",
+    role: "Travel Blogger",
+    country: "🇫🇷 France",
     rating: 5,
-    review: "أفضل تجربة سياحية مررت بها! التنظيم كان رائع والأسعار منافسة جداً. شكراً لكم على الرحلة المميزة.",
-    avatar: "س",
+    review: "Service exceptionnel! Une expérience de voyage inoubliable. L'organisation était parfaite et les prix très compétitifs.",
+    avatar: "M",
   },
   {
-    name: "محمد علي",
-    role: "طبيب",
+    name: "Hans Müller",
+    role: "Engineer",
+    country: "🇩🇪 Germany",
     rating: 4.5,
-    review: "خدمة التوصيل من وإلى المطار كانت ممتازة. السائق محترف والسيارة فاخرة. سأتعامل معهم مجدداً بالتأكيد.",
-    avatar: "م",
+    review: "Ausgezeichneter Service! Der Transfer vom Flughafen war perfekt organisiert. Das Auto war luxuriös und der Fahrer sehr professionell.",
+    avatar: "H",
   },
   {
-    name: "فاطمة حسن",
-    role: "مهندسة",
+    name: "Sofia García",
+    role: "Architect",
+    country: "🇪🇸 Spain",
     rating: 5,
-    review: "حجزت رحلة عائلية وكانت التجربة فوق التوقعات. الفندق ممتاز والبرنامج السياحي شامل ومنظم.",
-    avatar: "ف",
+    review: "¡Increíble experiencia! El tour fue maravilloso y el guía muy conocedor. Definitivamente volveré a reservar con ellos.",
+    avatar: "S",
   },
   {
-    name: "خالد إبراهيم",
-    role: "محاسب",
+    name: "Yuki Tanaka",
+    role: "Photographer",
+    country: "🇯🇵 Japan",
     rating: 4.5,
-    review: "تعاملت معهم لحجز تذاكر الطيران والفندق، الأسعار كانت أفضل من أي مكتب آخر. خدمة عملاء ممتازة.",
-    avatar: "خ",
+    review: "素晴らしいサービスでした！エジプト旅行が最高の思い出になりました。スタッフの対応も完璧でした。",
+    avatar: "Y",
   },
   {
-    name: "نورا السيد",
-    role: "معلمة",
+    name: "Alessandro Rossi",
+    role: "Chef",
+    country: "🇮🇹 Italy",
     rating: 5,
-    review: "رحلة شهر العسل كانت لا تُنسى بفضلهم! اهتمام بأدق التفاصيل وترتيب مثالي. شكراً جزيلاً.",
-    avatar: "ن",
+    review: "Servizio impeccabile! La nostra luna di miele è stata perfetta grazie a loro. Attenzione ai dettagli straordinaria.",
+    avatar: "A",
   },
 ];
 
@@ -133,6 +139,7 @@ const TestimonialsSection = () => {
                 <div>
                   <h4 className="font-bold text-foreground">{testimonial.name}</h4>
                   <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+                  <p className="text-xs text-gold">{testimonial.country}</p>
                 </div>
               </div>
             </div>
