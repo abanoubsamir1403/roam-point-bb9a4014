@@ -1,5 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { MapPin, Phone } from "lucide-react";
+import { ExternalLink } from "@/components/ExternalLink";
 
 const HeroSection = () => {
   return (
@@ -36,15 +37,13 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
+            <ExternalLink
               href="https://wa.me/201221233495"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg shadow-gold hover:scale-105 transition-transform duration-300"
             >
               <Phone className="w-5 h-5" />
               احجز الآن
-            </a>
+            </ExternalLink>
             <a
               href="#location"
               className="inline-flex items-center gap-3 border-2 border-gold/50 text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-gold/10 transition-colors duration-300"
