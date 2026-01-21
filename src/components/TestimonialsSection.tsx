@@ -99,11 +99,11 @@ const TestimonialsSection = () => {
             <p className="text-muted-foreground text-sm">متوسط التقييم</p>
           </div>
           <div className="text-center px-8 py-4 bg-card rounded-2xl border border-border shadow-card">
-            <div className="text-4xl font-bold text-gradient-gold mb-1">+500</div>
+            <div className="text-4xl font-bold text-gradient-gold mb-1">+352</div>
             <p className="text-muted-foreground text-sm mt-3">عميل سعيد</p>
           </div>
           <div className="text-center px-8 py-4 bg-card rounded-2xl border border-border shadow-card">
-            <div className="text-4xl font-bold text-gradient-gold mb-1">+1000</div>
+            <div className="text-4xl font-bold text-gradient-gold mb-1">+478</div>
             <p className="text-muted-foreground text-sm mt-3">رحلة ناجحة</p>
           </div>
         </div>

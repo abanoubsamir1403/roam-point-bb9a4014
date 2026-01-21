@@ -6,21 +6,6 @@ const services = [
     title: "توصيل VIP",
     description: "خدمة توصيل فاخرة بسيارات حديثة ومكيفة",
   },
-  {
-    icon: Plane,
-    title: "حجز طيران",
-    description: "حجز تذاكر طيران لجميع الوجهات العالمية",
-  },
-  {
-    icon: Hotel,
-    title: "حجز فنادق",
-    description: "أفضل الفنادق بأسعار تنافسية",
-  },
-  {
-    icon: Map,
-    title: "رحلات سياحية",
-    description: "جولات سياحية منظمة ومميزة",
-  },
 ];
 
 const ServicesSection = () => {
