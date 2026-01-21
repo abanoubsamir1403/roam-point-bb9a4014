@@ -1,4 +1,5 @@
 import { Facebook, Instagram, MessageCircle, MapPin, Phone } from "lucide-react";
+import { ExternalLink } from "@/components/ExternalLink";
 
 const Footer = () => {
   return (
@@ -23,42 +24,34 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="flex gap-4">
-            <a
+            <ExternalLink
               href="https://www.facebook.com/share/1KVJ3EAPLb/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
               aria-label="فيسبوك"
             >
               <Facebook className="w-5 h-5" />
-            </a>
-            <a
+            </ExternalLink>
+            <ExternalLink
               href="https://www.instagram.com/rovaniotours?igsh=MW9qNXF0c3R2MmVmMg=="
-              target="_blank"
-              rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
               aria-label="انستجرام"
             >
               <Instagram className="w-5 h-5" />
-            </a>
-            <a
+            </ExternalLink>
+            <ExternalLink
               href="https://wa.me/201221233495"
-              target="_blank"
-              rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
               aria-label="واتساب"
             >
               <MessageCircle className="w-5 h-5" />
-            </a>
-            <a
+            </ExternalLink>
+            <ExternalLink
               href="https://google.com/maps/place/3VQV%2BHP7+Rovanio+Tours،+شياخة+ثالثة،+اول+اسوان،+محافظة+أسوان+1242630"
-              target="_blank"
-              rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
               aria-label="موقعنا"
             >
               <MapPin className="w-5 h-5" />
-            </a>
+            </ExternalLink>
           </div>
         </div>
 
