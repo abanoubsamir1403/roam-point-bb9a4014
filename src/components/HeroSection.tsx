@@ -24,10 +24,9 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            مكتب{" "}
-            <span className="text-gradient-gold">السياحة</span>
+            <span className="text-gradient-gold">Rovanio</span>
             <br />
-            والسفر
+            Tours
           </h1>
           
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -38,7 +37,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://wa.me/201234567890"
+              href="https://wa.me/201221233495"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg shadow-gold hover:scale-105 transition-transform duration-300"

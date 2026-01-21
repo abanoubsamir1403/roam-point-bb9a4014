@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo & Info */}
           <div className="text-center md:text-right">
             <h3 className="text-2xl font-bold text-primary-foreground mb-2">
-              مكتب <span className="text-gradient-gold">السياحة</span>
+              <span className="text-gradient-gold">Rovanio</span> Tours
             </h3>
             <p className="text-primary-foreground/70">
               شريكك الأمثل للسفر والسياحة
@@ -18,13 +18,13 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="flex items-center gap-3 text-primary-foreground/70">
             <Phone className="w-5 h-5 text-gold" />
-            <span dir="ltr">+20 123 456 7890</span>
+            <span dir="ltr">+20 12 21233495</span>
           </div>
 
           {/* Social Links */}
           <div className="flex gap-4">
             <a
-              href="https://facebook.com/your-page"
+              href="https://www.facebook.com/share/1KVJ3EAPLb/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
@@ -33,7 +33,7 @@ const Footer = () => {
               <Facebook className="w-5 h-5" />
             </a>
             <a
-              href="https://instagram.com/your-page"
+              href="https://www.instagram.com/rovaniotours?igsh=MW9qNXF0c3R2MmVmMg=="
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
@@ -42,7 +42,7 @@ const Footer = () => {
               <Instagram className="w-5 h-5" />
             </a>
             <a
-              href="https://wa.me/201234567890"
+              href="https://wa.me/201221233495"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
@@ -51,7 +51,7 @@ const Footer = () => {
               <MessageCircle className="w-5 h-5" />
             </a>
             <a
-              href="https://maps.google.com/?q=your-location"
+              href="https://google.com/maps/place/3VQV%2BHP7+Rovanio+Tours،+شياخة+ثالثة،+اول+اسوان،+محافظة+أسوان+1242630"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-gold/30 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300"
@@ -64,7 +64,7 @@ const Footer = () => {
 
         <div className="border-t border-gold/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} مكتب السياحة. جميع الحقوق محفوظة
+            © {new Date().getFullYear()} Rovanio Tours. جميع الحقوق محفوظة
           </p>
         </div>
       </div>
