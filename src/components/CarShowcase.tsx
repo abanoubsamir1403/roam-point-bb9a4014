@@ -1,5 +1,6 @@
 import carImage from "@/assets/car.jpg";
 import { Check } from "lucide-react";
+import { ExternalLink } from "@/components/ExternalLink";
 
 const features = [
   "مكيفة بالكامل",
@@ -51,14 +52,12 @@ const CarShowcase = () => {
               ))}
             </div>
 
-            <a
+            <ExternalLink
               href="https://wa.me/201221233495"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg shadow-gold hover:scale-105 transition-transform duration-300"
             >
               احجز سيارتك الآن
-            </a>
+            </ExternalLink>
           </div>
         </div>
       </div>

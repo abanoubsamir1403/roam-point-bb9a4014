@@ -1,4 +1,5 @@
 import { Facebook, Instagram, MessageCircle, MapPin } from "lucide-react";
+import { ExternalLink } from "@/components/ExternalLink";
 
 const socialLinks = [
   {
@@ -41,18 +42,16 @@ const ContactSection = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {socialLinks.map((link, index) => (
-            <a
+            <ExternalLink
               key={index}
               href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className={`group flex flex-col items-center gap-4 p-8 bg-navy-light rounded-2xl border border-gold/20 transition-all duration-300 hover:scale-105 hover:border-gold/50 ${link.color} hover:text-primary-foreground`}
             >
               <div className="w-16 h-16 border-2 border-gold/50 rounded-full flex items-center justify-center group-hover:border-transparent transition-colors">
                 <link.icon className="w-8 h-8 text-gold group-hover:text-primary-foreground transition-colors" />
               </div>
               <span className="font-semibold text-lg">{link.label}</span>
-            </a>
+            </ExternalLink>
           ))}
         </div>
 
