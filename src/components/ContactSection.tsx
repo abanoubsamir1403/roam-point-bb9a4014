@@ -4,25 +4,25 @@ const socialLinks = [
   {
     icon: Facebook,
     label: "فيسبوك",
-    href: "https://facebook.com/your-page",
+    href: "https://www.facebook.com/share/1KVJ3EAPLb/",
     color: "hover:bg-[#1877f2]",
   },
   {
     icon: Instagram,
     label: "انستجرام",
-    href: "https://instagram.com/your-page",
+    href: "https://www.instagram.com/rovaniotours?igsh=MW9qNXF0c3R2MmVmMg==",
     color: "hover:bg-gradient-to-br hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888]",
   },
   {
     icon: MessageCircle,
     label: "واتساب",
-    href: "https://wa.me/201234567890",
+    href: "https://wa.me/201221233495",
     color: "hover:bg-[#25D366]",
   },
   {
     icon: MapPin,
     label: "موقعنا",
-    href: "https://maps.google.com/?q=your-location",
+    href: "https://google.com/maps/place/3VQV%2BHP7+Rovanio+Tours،+شياخة+ثالثة،+اول+اسوان،+محافظة+أسوان+1242630",
     color: "hover:bg-[#EA4335]",
   },
 ];
@@ -59,7 +59,7 @@ const ContactSection = () => {
         {/* Google Map Embed */}
         <div className="mt-16 rounded-3xl overflow-hidden shadow-gold">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.1234567890123!2d31.235711615116!3d30.044419981878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzM5LjkiTiAzMcKwMTQnMDguNiJF!5e0!3m2!1sar!2seg!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.1234567890123!2d32.8998!3d24.0889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14366500570cb2e7%3A0xe723a9dd8ee48fea!2sRovanio%20Tours!5e0!3m2!1sar!2seg!4v1234567890"
             width="100%"
             height="400"
             style={{ border: 0 }}
